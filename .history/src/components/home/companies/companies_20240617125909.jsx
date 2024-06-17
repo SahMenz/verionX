@@ -5,8 +5,8 @@ import './companies.css';
 function Companies() {
   return (
     <div className='companyGeneral d-flex justify-content-center flex-column align-items-center'>
-        <div className='p-2 p-lg-0 d-flex flex-wrap justify-content-between gap-5 mb-4' style={{width:"90vw", maxWidth:"1390px"}}>
-            <div className='d-flex flex-column mb-2 mb-md-0'>
+        <div className='p-2 p-lg-0'>
+            <div className='d-flex flex-column mb-5'>
                 <div className='fw-500 txt-16 lh-19 mb-3 txt-f3 align-self-start' style={{maxWidth:"267px"}}>1. Discover Your Next Opportunity</div>
                 <div className='fw-500 txt-23 lh-27 align-self-end' style={{maxWidth:"161px"}}>Get Job Offers</div>
             </div>

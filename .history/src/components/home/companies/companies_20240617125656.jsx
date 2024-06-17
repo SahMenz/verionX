@@ -5,13 +5,13 @@ import './companies.css';
 function Companies() {
   return (
     <div className='companyGeneral d-flex justify-content-center flex-column align-items-center'>
-        <div className='p-2 p-lg-0 d-flex flex-wrap justify-content-between gap-5 mb-4' style={{width:"90vw", maxWidth:"1390px"}}>
-            <div className='d-flex flex-column mb-2 mb-md-0'>
+        <div className='p-2 p-lg-0'>
+            <div className='d-flex flex-column'>
                 <div className='fw-500 txt-16 lh-19 mb-3 txt-f3 align-self-start' style={{maxWidth:"267px"}}>1. Discover Your Next Opportunity</div>
                 <div className='fw-500 txt-23 lh-27 align-self-end' style={{maxWidth:"161px"}}>Get Job Offers</div>
             </div>
             <div>
-                <div className='fw-400 txt-16 lh-19' style={{maxWidth:"513px" , marginBottom:"30px"}}>Elevate your career with Verion X. Connect with leading employers and curated opportunities tailored to you.</div>
+                <div className='fw-400 txt-16 lh-19' style={{maxWidth:"513px"}}>Elevate your career with Verion X. Connect with leading employers and curated opportunities tailored to you.</div>
                 <div className="d-flex align-items-center justify-content-between" style={{width:"189px"}}>
                     <button className="bg-eb txt-ff" style={{padding:"11px 18px", borderRadius:"30px"}}>Get Started</button>
                     <CustomSvg name="arrowTopRight" className=""/>

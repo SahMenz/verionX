@@ -74,7 +74,7 @@ export const getJobOffers = [
         companyName:"T-Mobile",
         location:"8 Miles, Calabar, Nigeria",
         jobTitle:"Mobile Engineer",
-        JobRequirement:"Expertise in mobile app development and proficiency in iOS/Android platforms",
+        Jobrequirement:"Expertise in mobile app development and proficiency in iOS/Android platforms",
         salary:"$2k/Month",
         timePosted:"3 Days ago"
     },
