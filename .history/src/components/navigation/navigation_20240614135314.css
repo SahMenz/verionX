@@ -1,0 +1,26 @@
+.navContainer{
+    padding: 22px 100px;
+    margin-bottom: 20px;
+    box-shadow: 0px 100px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navigationLink{
+    width: 56vw;
+    min-width: 600px;
+    max-width: 888px;
+}
+.links{
+    width: 30vw;
+    min-width: 300px;
+    max-width: 482px;
+}
+.switchmode{
+    width: 17vw;
+    min-width: 200px;
+    max-width: 254px;
+}
+@media screen and (min-width:325px) and (max-width:988px) {
+    .navContainer{
+        padding: 18px 60px;
+    }
+}

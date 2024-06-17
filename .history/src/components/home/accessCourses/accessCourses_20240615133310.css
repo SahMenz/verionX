@@ -1,0 +1,44 @@
+.manPressingLabtop{
+    width: 65vw;
+}
+.accessGeneral{
+    padding: 10px 20px;
+}
+.enhance{
+    font-size: 4vw;
+    margin-top: 20px;
+}
+.access{
+    font-size: 6vw;
+}
+.unlock{
+    font-size: 4vw;
+}
+
+@media (min-width: 478px) {
+    .enhance{
+        font-size: 3vw;
+    }
+    .access{
+        font-size: 5vw;
+    }
+    .unlock{
+        font-size: 3vw;
+    }
+}
+@media (min-width: 665px) {
+    .enhance{
+      font-size: 9vw;
+    }
+    .access{
+      font-size:2.5vw;
+    }
+    .unlock{
+        font-size: ;
+    }
+}
+@media (min-width:730px){
+    .accessGeneral{
+      padding: 20px 100px;
+    }
+  }

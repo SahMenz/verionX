@@ -1,0 +1,16 @@
+.navContainer{
+    padding: 0 100px;
+}
+
+.navigationLink{
+    width: 56vw;
+    max-width: 888px;
+}
+.links{
+    width: 30vw;
+    max-width: 482px;
+}
+.switchmode{
+    width: 18vw;
+    /* max-width: 254px; */
+}

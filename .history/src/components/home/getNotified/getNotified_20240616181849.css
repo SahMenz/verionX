@@ -1,0 +1,37 @@
+.getNotified{
+    font-size: 6vw;
+    max-width: 564px;
+}
+.getContainer{}
+.getGeneral{
+    padding: 10px 30px;
+    align-items: center;
+    border-radius: 30px;
+    width: 90vw;
+    max-width: 1400px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.inputText{
+    width:70vw;
+    max-width: 652px;
+}
+.textAdjust{
+    widt
+}
+@media (min-width:400px) {
+    .getNotified{
+        font-size: 5.5vw;
+    }
+}
+@media (min-width:919px) {
+    .getNotified{
+        font-size: 45px;
+    }
+}@media (min-width:1200px){
+    .getGeneral{
+        padding: 42px 0;
+    }
+}

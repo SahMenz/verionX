@@ -1,0 +1,16 @@
+.manPressingLabtop{
+    width: 65vw;
+}
+.accessGeneral{
+    padding: 10px 20px;
+}
+
+@media (min-width:) {
+    
+}
+
+@media (min-width:730px){
+    .accessGeneral{
+      padding: 20px 100px;
+    }
+  }

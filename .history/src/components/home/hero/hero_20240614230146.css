@@ -1,0 +1,9 @@
+@media (max-width: 992px) {
+    .largeTxt{
+        font-size: 43px;
+        text-align: center;
+    }
+    .exploretxt{
+        width: 40vw ;
+    }
+  }

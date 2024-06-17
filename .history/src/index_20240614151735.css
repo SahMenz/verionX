@@ -1,0 +1,11 @@
+button{
+    outline: none;
+    border: none;
+  }
+
+  input{
+    border: none;
+    outline: none;
+    width: -moz-fit-content;
+    width: fit-content;
+}

@@ -1,0 +1,26 @@
+.createGeneral{
+    padding: 10px 20px;
+}
+.mixedImage{
+    width: 85vw;
+}
+.adjustText{
+    font-size: 4vw;
+}
+.adjust19{
+    font-size: 5vw;
+}
+.adjust23{
+    font-size: 6vw;
+}
+@media (min-width: 478px) {
+}
+@media (min-width: 665px) {
+}
+@media (min-width:730px){
+    .createGeneral{
+        padding: 20px 100px;
+    }
+}
+@media (min-width:1400px){
+}

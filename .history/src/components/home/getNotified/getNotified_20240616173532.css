@@ -1,0 +1,10 @@
+.getNotified{
+    font-size: 6vw;
+    max-width: 564px;
+}
+.getGeneral{
+    padding: 10px 20px;
+    height: 40vw;
+    max-height: 292px;
+    align-items: center;
+}

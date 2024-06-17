@@ -1,0 +1,45 @@
+.createGeneral{
+    padding: 10px 20px;
+}
+.mixedImage{
+    width: 85vw;
+}
+.adjustText{
+    font-size: 4vw;
+}
+.adjust19{
+    font-size: 5vw;
+}
+.adjust23{
+    font-size: 6vw;
+}
+@media (min-width: 478px) {
+    .adjustText{
+        font-size: 3.5vw;
+    }
+    .adjust19{
+        font-size: 4.5vw;
+    }
+    .adjust23{
+        font-size: 5.5vw;
+    }
+}
+@media (min-width: 560px) {
+    
+}
+@media (min-width:730px){
+    .createGeneral{
+        padding: 20px 100px;
+    }
+    .adjustText{
+        font-size: 4vw;
+    }
+    .adjust19{
+        font-size: 5vw;
+    }
+    .adjust23{
+        font-size: 6vw;
+    }
+}
+@media (min-width:1400px){
+}

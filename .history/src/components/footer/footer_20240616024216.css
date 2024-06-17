@@ -1,0 +1,10 @@
+.footerGeneral{
+    padding: 20px 20px;
+    flex-wrap: wrap-reverse
+}
+
+@media (min-width:1400px){
+    .footerGeneral{
+        padding: 64px 109px
+    }
+}

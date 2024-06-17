@@ -1,0 +1,102 @@
+*, *::before, *::after{
+}
+/* BACKGROUND COLORS */
+
+.bg-f5{
+  background-color: #F5F5F5;
+}
+.bg-eb{
+  background-color: #EB1C25;
+}
+.bg-ff{
+  background-color: #fff;
+}
+.bg-d9{
+  background-color: #D9D9D9;
+  opacity: 20%;
+}
+
+
+/* FONT SIZES */
+
+.tiny-txt{
+  font-size: 11px; 
+}
+.extra-small-txt{
+  font-size: 13px;
+}
+.small-txt{
+  font-size: 16px;
+}
+.medium-txt{
+  font-size: 19px;
+}
+.normal-txt{
+  font-size: 23px;
+}
+.large-txt{
+  font-size: 45px;
+}
+.extra-large-txt{
+  font-size: 63px;
+}
+
+
+
+/* FONT WEIGHT */
+
+.fw-400{
+  font-weight: 400;
+}
+.fw-500{
+  font-weight: 500;
+}
+.fw-600{
+  font-weight: 600;
+}
+
+/* FONT FAMILY */
+
+.ff-rubik{
+  font-family: "Rubik", sans-serif;
+}
+
+
+/* LINE HEIGHT */
+
+.lh-19{
+  line-height: 19.2px;
+}
+.lh-75{
+  line-height: 75.6px;
+}
+.lh-26{
+  line-height: 26.38px;
+}
+.lh-22{
+  line-height: 22.8px;
+}
+.lh-27{
+  line-height: 27.6px;
+}
+.lh-15{
+  line-height: 15.89px;
+}
+.lh-13{
+  line-height: 13.2px;
+}
+.lh-54{
+  line-height: 54px;
+}
+.lh-34{
+  line-height: 34.5px;
+}
+.lh-67{
+  line-height: 67.5px;
+}
+.lh-32{
+  line-height: 32.2px;
+}
+.lh-18{
+  line-height: 18.96px;
+}

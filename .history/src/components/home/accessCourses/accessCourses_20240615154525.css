@@ -1,0 +1,73 @@
+.manPressingLabtop{
+    width: 65vw;
+}
+.accessGeneral{
+    padding: 10px 20px;
+}
+.enhance{
+    font-size: 4vw;
+    margin-top: 20px;
+}
+.access{
+    font-size: 6vw;
+}
+.unlock{
+    font-size: 4vw;
+}
+.stackgeneral{
+    position: relative; /* Enable absolute positioning */
+    background-image: url('https://example.com/image.jpg'); /* Set image as background */
+    background-size: cover; /* Ensure image covers the container */
+    background-position: center; /* Center image horizontally and vertically */
+    padding: 10px; 
+}
+.imagetext{
+        position: absolute; /* Position text absolutely within container */
+        color: white; /* Adjust text color for visibility on image */
+        top: 50%; /* Center text vertically */
+        left: 50%; /* Center text horizontally */
+        transform: translate(-50%, -50%); /* Offset for centering */
+        text-align: center; /* Optional: Center text alignment */
+}
+
+@media (min-width: 478px) {
+    .enhance{
+        font-size: 3vw;
+    }
+    .access{
+        font-size: 5vw;
+    }
+    .unlock{
+        font-size: 3vw;
+    }
+}
+@media (min-width: 665px) {
+    .enhance{
+      font-size: 2.5vw;
+    }
+    .access{
+      font-size:4.5vw;
+    }
+    .unlock{
+        font-size: 2.5vw;
+    }
+}
+@media (min-width:730px){
+    .accessGeneral{
+      padding: 20px 100px;
+    }
+    .enhance{
+        font-size: 16px;
+      }
+      .access{
+        font-size:23px;
+      }
+      .unlock{
+          font-size: 16px;
+      }
+  }
+  @media (min-width:1200px){
+    .accessGeneral{
+        justify-content: space-between;
+    }
+  }

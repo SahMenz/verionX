@@ -1,0 +1,9 @@
+.footerGeneral{
+    padding: 20px 20px;
+}
+
+@media (min-width:1400px){
+    .footerGeneral{
+        padding: 64px 109px
+    }
+}

@@ -1,0 +1,126 @@
+*, *::before, *::after{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+
+/* BACKGROUND COLORS */
+
+.bg-f5{
+  background-color: #F5F5F5;
+}
+.bg-eb{
+  background-color: #EB1C25;
+}
+.bg-ff{
+  background-color: #fff;
+}
+.bg-d9{
+  background-color: #D9D9D9;
+  opacity: 20%;
+}
+.bg-00{
+  background-color: #000;
+}
+
+
+/* FONT SIZES */
+
+.txt-11{
+  font-size: 11px; 
+}
+.txt-13{
+  font-size: 13px;
+}
+.txt-16{
+  font-size: 16px;
+}
+.txt-19{
+  font-size: 19px;
+}
+.txt-23{
+  font-size: 23px;
+}
+.txt-45{
+  font-size: 45px;
+}
+.txt-63{
+  font-size: 63px;
+}
+
+
+/* TEXT COLOR */
+
+.txt-eb{
+  color:#EB1C25
+}
+.txt-f3{
+  color: #737373
+}
+.txt-ff{
+  color:#fff
+}
+.txt-00{
+  color: #000;
+}
+
+
+/* FONT WEIGHT */
+
+.fw-400{
+  font-weight: 400;
+}
+.fw-500{
+  font-weight: 500;
+}
+.fw-600{
+  font-weight: 600;
+}
+
+
+/* LINE HEIGHT */
+
+.lh-19{
+  line-height: 19.2px;
+}
+.lh-75{
+  line-height: 55.6px;
+}
+.lh-26{
+  line-height: 26.38px;
+}
+.lh-22{
+  line-height: 22.8px;
+}
+.lh-27{
+  line-height: 27.6px;
+}
+.lh-15{
+  line-height: 15.89px;
+}
+.lh-13{
+  line-height: 13.2px;
+}
+.lh-54{
+  line-height: 54px;
+}
+.lh-34{
+  line-height: 34.5px;
+}
+.lh-67{
+  line-height: 67.5px;
+}
+.lh-32{
+  line-height: 32.2px;
+}
+.lh-18{
+  line-height: 18.96px;
+}

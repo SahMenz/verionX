@@ -1,0 +1,25 @@
+.generalStay{
+    padding: 10px 20px;
+}
+.groupPhotos{
+    width:80vw;
+    max-width: 1390px;
+}
+.textStay{
+    font-size: 7vw;
+}
+@media (min-width:500px){
+    .textStay{
+        font-size: 6.5vw;
+    }
+}
+@media (min-width:750px){
+    .textStay{
+        font-size: 6vw;
+    }
+}
+@media (min-width:1200px){
+    .textStay{
+        font-size: 63px;
+}
+}
