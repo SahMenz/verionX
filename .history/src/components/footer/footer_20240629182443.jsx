@@ -94,7 +94,7 @@ function Footer() {
             <div>
                 <input  type='text' value={userInput} onChange={handleInputChange} placeholder='Email address' style={{marginRight:"20px",borderRadius:"30px", padding:"15px 20px", boxShadow: "0px 0px 3px 3px rgba(0, 0, 0, 0.2)"}}/>
                 {!isPending && <button onClick={() => sendData(userInput)} className='bg-f5'><CustomSvg name="telegram"/></button>}
-                {isPending && <button disabled className="bg-eb p-3 mb-xl-5 inputButton" style={{borderRadius:"100%" ,boxShadow: "0px -1px 5px 0px rgba(0, 0, 0, 0.2)"}}>
+                {isPending && <button disabled className="bg-eb p-3 mb-xl-5 inputButton" style={{boxShadow: "0px -1px 5px 0px rgba(0, 0, 0, 0.2)"}}>
                   <Spinner animation="border" role="status" style={{height:"21px", width:"21px"}}>
                     <span className="visually-hidden">Loading...</span>
                   </Spinner></button>
