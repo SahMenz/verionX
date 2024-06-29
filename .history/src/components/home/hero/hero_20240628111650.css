@@ -1,0 +1,78 @@
+  .largeTxt{
+    font-size: 10vw;
+  }
+  .exploretxt{
+    font-size: 4vw;
+  }
+  .heroGeneral{
+    padding: 10px 20px;
+  }
+  .loading-spinner {
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  .inputButton{
+    border:none;
+    /* position:absolute; */
+    /* right: 0; */
+    -webkit-border-radius:0px 10px 10px 0px;
+    -moz-border-radius:0px 10px 10px 0px;
+    -ms-border-radius:0px 10px 10px 0px;
+    -o-border-radius:0px 10px 10px 0px;
+    border-radius:0px 10px 10px 0px;
+}
+.inputText{
+  /* width: 40vw; */
+  /* max-width: 733px; */
+  -webkit-border-radius:10px 0px 0px 10px;
+    -moz-border-radius:10px 0px 0px 10px;
+    -ms-border-radius:10px 0px 0px 10px;
+    -o-border-radius:10px 0px 0px 10px;
+    border-radius:10px 0px 0px 10px;
+}
+  @media (min-width: 478px) {
+    .largeTxt{
+      line-height: 75px;
+    }
+    .exploretxt{
+      font-size: 3vw;
+    }
+  }
+  @media (min-width: 632px) {
+    .largeTxt{
+      font-size: 9vw;
+    }
+    .exploretxt{
+      font-size:2.5vw;
+    }
+  }
+  @media (min-width:730px){
+    .largeTxt{
+      font-size: 63px;
+    }
+    .exploretxt{
+      font-size: 19px;
+    }
+    .heroGeneral{
+      padding: 20px 100px;
+    }
+  }
+  @media(min-width:1400){
+    .heroGeneral{
+      justify-content: space-between;
+    }
+  }

@@ -1,0 +1,55 @@
+  .largeTxt{
+    font-size: 10vw;
+  }
+  .exploretxt{
+    font-size: 4vw;
+  }
+  .heroGeneral{
+    padding: 10px 20px;
+  }
+  .inputButton{
+    border:none;
+    /* position:absolute; */
+    /* right: 0; */
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+}
+.inputText{
+  /* width: 40vw; */
+  /* max-width: 733px; */
+}
+  @media (min-width: 478px) {
+    .largeTxt{
+      line-height: 75px;
+    }
+    .exploretxt{
+      font-size: 3vw;
+    }
+  }
+  @media (min-width: 632px) {
+    .largeTxt{
+      font-size: 9vw;
+    }
+    .exploretxt{
+      font-size:2.5vw;
+    }
+  }
+  @media (min-width:730px){
+    .largeTxt{
+      font-size: 63px;
+    }
+    .exploretxt{
+      font-size: 19px;
+    }
+    .heroGeneral{
+      padding: 20px 100px;
+    }
+  }
+  @media(min-width:1400){
+    .heroGeneral{
+      justify-content: space-between;
+    }
+  }

@@ -1,0 +1,11 @@
+.companyGeneral{
+    padding: 50px 5px;
+}
+.companyJobs:hover{
+    display: none;
+}
+@media (min-width:322px){
+    .companyJobs{
+        width: 295px;
+    }
+}

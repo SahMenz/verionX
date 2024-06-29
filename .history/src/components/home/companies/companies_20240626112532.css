@@ -1,0 +1,18 @@
+.companyGeneral{
+    padding: 50px 5px;
+}
+.companyJobs:hover{
+    cursor: pointer;
+    box-shadow: 0 -1.65px 4.96px 0px #D3D3D380;
+    transform: scale(0.9);
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -ms-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+}
+@media (min-width:322px){
+    .companyJobs{
+        width: 295px;
+    }
+}
